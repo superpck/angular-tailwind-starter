@@ -1,6 +1,7 @@
 {
-  "name": "lineoa",
-  "version": "3.0.0",
+  "name": "angular-tailwind",
+  "version": "20.1.1",
+  "subVersion": "2025.07.18-2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4201 -o",

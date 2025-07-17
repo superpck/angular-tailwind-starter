@@ -1,16 +1,22 @@
 # Lineoa
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1 with [Tailwind CSS](https://tailwindcss.com/) v3.4.0 integration.
+
+## Features
+
+- **Angular 20** - Latest version with enhanced performance and developer experience
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Modern UI** - Clean, responsive design using Tailwind components
 
 ## Development server
 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4201/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
 
@@ -25,6 +31,28 @@ For a complete list of available schematics (such as `components`, `directives`,
 ```bash
 ng generate --help
 ```
+
+## Tailwind CSS
+
+This project uses Tailwind CSS for styling. Here's how to use it:
+
+### Using Utility Classes
+
+Simply add Tailwind's utility classes to your HTML elements:
+
+```html
+<div class="flex items-center justify-center p-4 bg-blue-500 text-white rounded-lg shadow-md">
+  This is styled with Tailwind CSS
+</div>
+```
+
+### Customizing Tailwind
+
+You can customize Tailwind by editing the `tailwind.config.js` file in the project root.
+
+### Documentation
+
+For full documentation on Tailwind CSS, visit [https://tailwindcss.com/docs](https://tailwindcss.com/docs).
 
 ## Building
 
