@@ -1,4 +1,4 @@
-# Lineoa
+# Angular project with tailwindcss
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1 with [Tailwind CSS](https://tailwindcss.com/) v3.4.0 integration.
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lineoa": {
+    "angulartailwind": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "lineoa:build:production"
+              "buildTarget": "angulartailwind:build:production"
             },
             "development": {
-              "buildTarget": "lineoa:build:development"
+              "buildTarget": "angulartailwind:build:development"
             }
           },
           "defaultConfiguration": "development"
