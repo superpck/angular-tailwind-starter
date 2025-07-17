@@ -85,3 +85,11 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Credits
+
+This project was developed with assistance from [GitHub Copilot](https://github.com/features/copilot), an AI pair programming tool that helps developers write better code faster.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
