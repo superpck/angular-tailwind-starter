@@ -1,12 +1,34 @@
-# Angular project with tailwindcss
+# Angular Tailwind Starter
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1 with [Tailwind CSS](https://tailwindcss.com/) v3.4.0 integration.
+A modern Angular application starter template with Tailwind CSS integration, designed for rapid development and clean UI design.
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0 with [Tailwind CSS](https://tailwindcss.com/) v3.4.17 integration.
 
 ## Features
 
-- **Angular 20** - Latest version with enhanced performance and developer experience
-- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Angular 20.2** - Latest version with enhanced performance and developer experience
+- **Tailwind CSS 3.4.17** - Utility-first CSS framework for rapid UI development
+- **Angular Material** - Material Design components for Angular
 - **Modern UI** - Clean, responsive design using Tailwind components
+- **TypeScript 5.8** - Latest TypeScript support for better development experience
+- **Hot Reload** - Fast development with automatic browser refresh
+
+## Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start development server:**
+   ```bash
+   npm start
+   ```
+
+3. **Open browser:**
+   Navigate to `http://localhost:4201/`
+
+The application will automatically reload when you modify source files.
 
 ## Development server
 
@@ -81,6 +103,22 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── pages/
+│   │   ├── landing-page/     # Main landing page component
+│   │   └── single-page/      # Example single page component
+│   ├── app.config.ts         # Application configuration
+│   ├── app.routes.ts         # Routing configuration
+│   └── app.ts               # Root application component
+├── styles.scss              # Global styles
+├── main.ts                  # Application bootstrap
+└── index.html              # Main HTML template
+```
 
 ## Additional Resources
 
